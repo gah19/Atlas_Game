@@ -1,0 +1,108 @@
+
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 81.62vh;
+    background-image: url(earth.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 90%;
+    background-color: whitesmoke;
+}
+
+.login-container * {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    height: 46vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    background-color: #fff;
+	border-radius: 2vh;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+    margin: 0vh 20vw;
+    padding: 2vh 6vh;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-evenly;
+    color:hsl(133, 97%, 15%);
+}
+
+.title{
+    display: flex;
+    font-weight: bold;
+    color:hsl(133, 100%, 40%);
+    align-content: center;
+    justify-content:center;
+    font-size: 4.5vh;
+}
+
+
+.login-form input{
+    display: flex;
+    width: 40vw;
+    background-color: #eee;
+    border: none;
+	padding: 1.2vh 1.5vh;
+	margin: 1vh 0;
+    border-radius: 2vh;
+}
+
+.login-form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: fit-content;
+    border-radius: 2vh;
+	border: 0.1vh solid hsl(133, 100%, 40%);
+	background-color: hsl(133, 100%, 40%);
+	color: #FFFFFF;
+	font-size: 2vh;
+	font-weight: bold;
+	padding: 1vh 3.5vh;
+}
+.login-form button:disabled {
+    opacity: 0.4;
+}
+.login-form button:active {
+	transform: scale(0.95);
+}
+
+.login-form button:focus {
+	outline: none;
+}
+.login-response{
+    text-align: center;
+    color: red
+}
+
+.register-link-message {
+    color: rgb(94, 93, 93);
+}
+
+.register-link {
+    color: hsl(133, 100%, 40%);
+    text-decoration: none;
+}
+
+.register-link:hover {
+    color: hsl(133, 100%, 26%);
+    text-decoration: underline;
+}
+
+.register-link:active {
+    opacity: 0.5;
+}

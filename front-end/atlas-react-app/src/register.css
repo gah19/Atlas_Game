@@ -1,0 +1,148 @@
+
+/* new CSS */
+/* ___________________________________________________________________________________________________________________________ */
+
+.register-page .register-title{
+    display: flex;
+    font-weight: bold;
+    color:hsl(133, 100%, 40%);
+    align-content: center;
+    justify-content:center;
+    font-size: 4.5vh;
+    margin-top: 2vh;
+}
+
+.register-container *, .register-title {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.register-page  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 81.62vh;
+    background-image: url(earth.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 90%;
+    background-color: whitesmoke;
+}
+
+.register-page .register{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+
+    background-color: #fff;
+	border-radius: 2vh;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+}
+
+.register-form button {
+    margin-top: 1vh;
+}
+
+.register-page .register-form{
+    display: flex;
+    flex-direction: column;
+    height: 62vh;
+    justify-content: space-around;
+    align-items: center;
+    color:hsl(133, 97%, 15%);
+    padding: 2.5vh 2.5vh 0px 2.5vh;
+
+}
+
+.register-page .register-inputs{
+    overflow-y: scroll;
+}
+
+.register-page .register-form input{
+    display: flex;
+    width: 40vw;
+    background-color: #eee;
+    border: none;
+    padding: 1.2vh 1.5vh;
+	margin: 0.8vh 2.5vh;
+    border-radius: 3vh;
+}
+
+
+ .register-form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: fit-content;
+    border-radius: 2vh;
+	border: 0.1vh solid hsl(133, 100%, 40%);
+	background-color: hsl(133, 100%, 40%);
+	color: #FFFFFF;
+	font-size: 2vh;
+	font-weight: bold;
+	padding: 1vh 3.5vh;
+}
+ .register-form button:disabled {
+    opacity: 0.4;
+}
+ .register-form button:active {
+	transform: scale(0.95);
+}
+
+ .register-form button:focus {
+	outline: none;
+}
+
+ .registerformerrormessage{
+    color: red;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+ .register-response{
+    text-align: center;
+    color: red
+}
+
+.register-page .register-form select{
+    display: flex;
+    width: 41.5vw;
+    background-color: #eee;
+    border: none;
+	padding-left: 1.5vh;
+	margin: 1.5vh 2.5vh;
+    border-radius: 3vh;
+    height: 5.5vh;
+    font-size: 2vh;
+
+}
+
+.signin-link-message {
+    color: rgb(94, 93, 93);
+}
+
+.signin-link {
+    color: hsl(133, 100%, 40%);
+    text-decoration: none;
+}
+
+.signin-link:hover {
+    color: hsl(133, 100%, 26%);
+    text-decoration: underline;
+}
+
+.signin-link:active {
+    opacity: 0.5;
+}
+
+.end-game-register .signin-link-message {
+    padding-bottom: 1.8vh;
+}

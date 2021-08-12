@@ -1,0 +1,86 @@
+.homepage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 81.62vh;
+    background-image: url(earth.png);
+    background-color: whitesmoke;
+    background-position: top;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.homepage-container .scoreboards{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    height: 60vh;
+    padding: 2.5vh;
+    min-width: 40vw;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.global-scoreboard-homepage {
+    min-width: 63vw
+}
+
+
+.homepage-container .scoreboard{
+    background-color: #fff;
+	border-radius: 2vh;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    height: 55vh;
+    padding-bottom: 6vh;
+}
+
+.homepage-container .game-description{
+    background-color: #fff;
+	border-radius: 2vh;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+    height: 55vh;
+    overflow-y: scroll;
+}
+
+.homepage-container .game-description ul {
+    list-style: none;
+    font-size: 1.3vmax;
+    line-height: 1vmax;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.homepage-container .game-description li {
+    list-style: none;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    line-height: 4.5vh;
+}
+
+.homepage-container .game-description .play-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: fit-content;
+    border-radius: 6vh;
+	border: 1vh solid hsl(133, 100%, 40%);
+	background-color: hsl(133, 100%, 40%);
+	color: #FFFFFF;
+	padding: 1vh 2vh;
+	letter-spacing: 0vh;
+    text-decoration: none;
+    margin: 1vh;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    font-size: 1.5vmax;
+    text-align: center;
+}

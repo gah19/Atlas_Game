@@ -1,0 +1,169 @@
+.overall-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid gold 5px; */
+    background-image: url(earth.png);
+    background-color: whitesmoke;
+    background-position: top;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 81.62vh;
+}
+
+.overall-container h1{
+    font-size: 5vh;
+    color:hsl(133, 100%, 40%);
+    background-color: #fff;
+	border-radius: 2vh;
+    margin-bottom: 5vh;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    padding: 1.5vh 4vh;
+
+}
+
+.whole-team-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 90vw;
+    /* border: solid gold 5px; */
+}
+
+.whole-team-container article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid gold 5px; */
+    padding: 1.5vh;
+    background-color: #fff;
+	border-radius: 8vh;
+    margin-bottom: 5vh;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    /* width: 20vw; */
+}
+
+.whole-team-container article img{
+    /* width: 20vw; */
+    width: 14vw;
+    cursor: pointer;
+    border-radius: 11.5vh;
+    height: 35vh;
+    background-position: center;
+    object-fit: cover;
+}
+
+/* Indiviual Member CSS */
+.overall-member-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4vh 0vh 0vh 0vh;
+    height: 82vh;
+    /* border: solid gold 5px; */
+    background-image: url(earth.png);
+    background-color: whitesmoke;
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.overall-member-container .full-name{
+    font-size: 4vh;
+    color:hsl(133, 100%, 40%);
+    margin: 0;
+
+}
+.member-profile{
+    display: flex;
+    padding: 1vh;
+}
+.member-info{
+    display: flex;
+    flex-direction: column;
+    padding: 4vh;
+    word-wrap:break-word;
+    width: 40vw;
+}
+.member-info p{
+    line-height: 4vh;
+}
+
+.overall-member-container button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: fit-content;
+    border-radius: 3vh;
+	border: 0.1vh solid hsl(133, 100%, 40%);
+	background-color: hsl(133, 100%, 40%);
+	color: #FFFFFF;
+	font-size: 2vh;
+	font-weight: bold;
+	padding: 1.2vh 2.4vw;
+	letter-spacing: 0.07vw;
+}
+
+.overall-member-container article img{
+    /* width: 10vw; */
+    width: 24vw;
+    cursor: pointer;
+    /* border-radius: 100px; */
+    height: 50vh;
+    background-position: center;
+    object-fit: scale-down; /* was cover */
+    size: 80%;
+}
+.overall-member-container article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: solid gold 5px; */
+    padding: 2vh 1vw;
+    background-color: #fff;
+	border-radius: 14.4vh;
+    margin-bottom: 6.8vh;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    /* width: 150px; */
+}
+
+article.container img {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+article.container img:hover {
+    opacity: 0.7;
+}
+
+article.container h3 {
+    font-size: 3vh;
+}
+
+.member-container {
+    margin-top: 3vh;
+}
+
+.member-container p {
+    font-size: 2.3vh;
+}
+
+.member-container p a {
+    color:hsl(133, 100%, 40%);
+    text-decoration: none;
+}
+
+.member-container p a:hover {
+    color: hsl(133, 100%, 26%);
+    text-decoration: underline;
+}
+
+.member-container p a:active {
+    opacity: 0.5;
+}

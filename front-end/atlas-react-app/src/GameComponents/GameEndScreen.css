@@ -1,0 +1,290 @@
+.endgame-page{
+    /* padding: 0px;
+    margin: 0px; */
+    display: flex;
+    flex-direction: row;
+    /* border: solid white 5px; */
+    justify-content: space-around;
+    align-items: center;
+    height: 81.62vh;
+    background-image: url(../earth.png);
+    background-color: whitesmoke;
+    background-position: top;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.register-or-scoreboard .end-game-register {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+	border-radius: 2vw;
+  	box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+			0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    height: 62vh;
+    padding: 3vh 2vw;
+}
+
+.register-or-scoreboard .end-game-register h2 {
+    text-align: center;
+}
+
+.register-or-scoreboard .scoreboard {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+	border-radius: 2vw;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    height: 62vh;
+    font-size: 2.1vh;
+}
+
+.register-or-scoreboard .scoreboard h2 {
+    font-size: 2.8vh;
+}
+
+.register-or-scoreboard .scoreboard select {
+    font-size: 2vmin;
+}
+
+.end-game-register h2 {
+    margin: 1.5vh 0.5vw;
+    display: flex;
+    /* border: solid black 5px; */
+    /* padding: 20px; */
+    font-weight: 600;
+    color:hsl(133, 100%, 40%);
+    align-content: center;
+    justify-content:center;
+    margin-top: 6vh;
+    font-size: 4vh;
+}
+
+.end-game-register {
+    margin-right: 1vw;
+}
+
+/* .end-game-register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	overflow: hidden;
+    height: 62vh;
+    padding: 20px 60px;
+} */
+
+.end-game-register .register-form{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    justify-content: space-around;
+    align-items: center;
+    color:hsl(133, 97%, 15%);
+    padding: 1vh 1.7vw 0px 1.7vw;
+}
+
+
+.end-game-register input{
+    display: flex;
+    width: 30vw;
+    height: 4vh;
+    background-color: #eee;
+    border: none;
+    border-radius: 1vw;
+    margin: 1vh 1.7vw;
+    padding: 0.5vh 1vw;
+}
+
+.end-game-register select{
+    display: flex;
+    width: 32vw;
+    height: 5.5vh;
+    background-color: #eee;
+    border: none;
+    border-radius: 2vw;
+    margin: 1vh 1.7vw;
+    margin-bottom: 2vh;
+    padding: 0.5vh 1vw;
+    font-size: 2vmin;
+}
+
+.end-game-register .registerformerrormessage p {
+    font-size: 2vmin;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.end-game-register .register-inputs{
+    overflow-y: scroll;
+    min-height: 42vh;
+}
+
+.endgame-success {
+    margin-bottom: 2.8vh;
+    text-align: center;
+    color: hsl(133, 100%, 40%);
+}
+
+
+.score-and-replay button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: fit-content;
+    border-radius: 1.5vw;
+	border: 0.1vh solid hsl(133, 100%, 40%);
+	background-color: hsl(133, 100%, 40%);
+	color: #FFFFFF;
+	font-size: 3vmin;
+	font-weight: 600;
+	padding: 1.5vh 2.5vw;
+	letter-spacing: 0.1vh;
+    margin: 0;
+}
+ .score-and-replay button:disabled {
+    opacity: 0.4;
+}
+ .score-and-replay button:active {
+	transform: scale(0.95);
+}
+
+ .score-and-replay button:focus {
+	outline: none;
+}
+
+.score-and-replay {
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+	border-radius: 2vw;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    height: 62vh;
+    /* padding: 3vh 0.75vw; */
+    padding: 3vh 1.5vw;
+}
+
+.score-and-replay .final-score {
+    /* font-size: 7vw; */
+    font-size: 10vmin;
+    border: solid 0.4vw;
+    /* padding: 15px 45px; */
+    height: 21.6vh;
+    /* width: 10.4vw; */
+    width: 21.6vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 4.2vh 1vw;
+}
+
+/* .score-and-replay button {
+    align-self: center;
+    width: 150px;
+    height: 50px;
+    width: 50 px;
+    height: 20 px;
+    border-radius: 5px;
+    border-color: green;
+    color:black;
+    background-color: chartreuse;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: black solid 1px;
+} */
+
+.countries-played-and-could-container {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+	border-radius: 2vw;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    height: 62vh;
+    padding: 3vh 1vw;
+}
+
+.countries-played-and-could-container h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.countries-played-and-could-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countries-played-and-could-container .country-list {
+    height: 18.6vh;
+    width: 22vw;
+    /* border: 1px solid black; */
+    list-style-type: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    overflow: scroll;
+}
+
+.countries-played-and-could-container .country-list li {
+    line-height: 4vh;
+    padding-left: 1vw;
+    font-size: 2.3vh;
+}
+
+.countries-played-and-could-container h2 {
+    margin: 1.4vh 0.7vw;
+    font-size: 3vh;
+}
+
+.countries-played-and-could-container .country-list li:nth-child(2n) {
+    /* background-color: rgb(238, 238, 238) ; */
+    background-color: hsl(130, 30%, 96%);
+}
+
+.final-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.score-and-replay h2 {
+    margin: 0.4vw;
+    margin-bottom: 1vh;
+    font-size: 3vh;
+    color: black;
+    text-align: center;
+}
+
+.final-input-container h2 {
+    font-weight: 500;
+    color: black;
+}
+
+
+.end-game-register .registerationlabel, .end-game-register .buttonform, .end-game-register .signin-link-message {
+    font-size: 2.3vh;
+}

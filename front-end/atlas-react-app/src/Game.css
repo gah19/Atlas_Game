@@ -1,0 +1,186 @@
+/* page as whole - centre items, background image */
+.game-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 81.62vh;
+    background-image: url(earth.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 90%;
+    background-color: whitesmoke;
+}
+
+/* styling of instructions on start page */
+.start-instructions {
+    border: solid white 5px;
+    padding: 1.1vh 2.1vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    width: 65%;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+    background-color: white;
+    border-radius: 2vw;
+    font-size: 1.12vmax;
+}
+
+.instruction-correct {
+    color: hsl(133, 100%, 40%);
+    font-weight: bolder;
+}
+
+.instruction-error {
+    color: red;
+    font-weight: bolder;
+}
+
+/* styling of start button on start game page */
+.start-button-container button {
+    padding: 1.8vh 2.1vw;
+    font-size: 2vmax;
+    border: 0.6vh solid hsl(133, 100%, 40%) ;
+    background-color: hsl(133, 100%, 40%);
+    color: white;
+    border-radius: 2vw;
+    margin: 1.8vh;
+    box-shadow: 0 2vh 2vw rgba(0,0,0,0.25), 
+                0 1.5vh 0.5vw rgba(0,0,0,0.22);
+}
+
+/* placement of score and timer relative */
+.top-game-bar {
+    width: 76vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 2.4vh 5.5vw;
+    align-items: flex-start;
+    font-size: 2.4vh;
+}
+
+/* centering time remaining element (title and seconds) ***REPLACE BY CLOCK*** */
+.player-score, .timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* score circle with number styling */
+.player-score span {
+    display: flex;
+    border-radius: 50%;
+    padding: 3.6vh;
+    background-color: orange;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Handlee', cursive;
+    font-size: 4.9vh;
+    height: 3.65vh;
+    width: 2.1vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;   
+}
+
+/* display question and letter */
+.letter-question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vh;
+    position: fixed;
+    right: 9%;
+    top: 50%;
+    width: 83vw;
+}
+
+/* white box around question/response */
+.question-container {
+    border: solid white 5px;
+    padding: 1vh 2.1vw;
+    margin-top: -6.1vh;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* line spacing between question and ai country */
+.ai-response, .main-question {
+    margin: 0.7vh 0px;
+}
+
+/* actual letter displayed and circle around it, flag is circle background on capital question */
+.letter-question-container .letter {
+    font-size: 13.6vh;
+    border: solid 5px black;
+    height: 18vh;
+    width: 18vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:3.65vh 0px;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    position: fixed;
+    top: 58%;
+
+}
+
+/* placement of input bar and buttons */
+.game-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    right: 22.5%;
+    margin-bottom: 4vh;
+    width: 55.5vw;
+}
+
+/* spacing between bar and buttons */
+.game-input-container * {
+    margin: 0px 0.1vw;
+}
+
+/* styling of input bar */
+.game-input-container .game-input-bar {
+    padding: 1.2vh 1vw;
+    width: inherit;
+    border: solid 0.3vh;
+    border-radius: 25px;
+    font-size: 2.4vh;
+}
+
+.game-input-container .game-input-bar:focus {
+    outline: none;
+}
+
+/* styling of buttons */
+.game-input-container .game-submit, .game-input-container .game-skip {
+    padding: 0.6vh 1vw;
+    border: solid 0.3vh;
+    border-radius: 30px;
+    font-size: 2vh;
+    height: 6vh;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+}
+
+.game-input-container .game-skip {
+    background-color: rgb(231, 50, 73);
+    border: none;
+    color: white;
+}
+
+.game-input-container .game-submit {
+    background-color: hsl(133, 100%, 40%);
+    border: none;
+    color: white;
+}

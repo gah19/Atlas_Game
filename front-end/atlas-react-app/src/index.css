@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0px;
+	font-family: 'Ubuntu', sans-serif;
+    background-color: whitesmoke;
+}
+
+.app-banners{
+    margin: 0px;
+    padding: 0px;
+}
+
+.app-title-banner{
+    font-family: 'Handlee', cursive;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #019120;
+    min-height: 10vh;
+}
+
+.app-title-banner * {
+    text-decoration: none;
+    color: white;
+}
+
+.app-title-banner .homepage-title {
+    font-size: 7.5vh;
+}
+
+.app-title-banner .slogan {
+    font-size: 2.5vh;
+    margin-top: -1vh;
+}
+
+.app-nav-banners {
+    display: flex;
+    padding: 0.5vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: solid 0.5vh #019120;
+    min-height: 4vh;
+}
+
+.app-nav-banners * {
+    margin: 0px 4vw;
+    text-decoration: none;
+    font-size: 2vh;
+    color: hsl(133, 100%, 26%);
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    padding: 1vh 2vh;
+    border-radius: 3vh;
+}
+
+.app-nav-banners *:hover {
+    background-color: #019120;
+    color: white;
+    border-radius: 3vh;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+}
+
+.app-nav-banners .selected-page {
+    font-weight: 600;
+    background-color: #019120;
+    color: white;
+    padding: 1vh 2vh;
+    border-radius: 3vh;
+}
+
+.app-nav-banners button {
+    border: none;
+    background-color: inherit;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0.1vw;
+    height: 0.1vw;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0.1vw;
+    background-color: hsl(133, 100%, 26%);
+    box-shadow: 0 0 0.1vh rgba(255, 255, 255, .5);
+}
+
+button:disabled {
+    cursor: default;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+input, select, button, th, td, label, h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+button:active {
+	transform: scale(0.95);
+}
